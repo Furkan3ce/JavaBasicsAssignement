@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        
+    Scanner scanner = new Scanner(System.in);
+    
+    System.out.println("Lutfen yasinizi giriniz...");
+    int yas = scanner.nextInt();
+    
+        switch(yas){
+            case 0:
+            System.out.println("Dogdun");
+            break;
+            case 1:
+            System.out.println("Ilk senen");
+            break;
+            case 2:
+            System.out.println("Ikinci senen");
+            break;
+            case 3:
+            System.out.println("Triple year!");
+            break;
+            case 4:
+            System.out.println("Iyi geldin");
+            break;
+            case 5:
+            System.out.println("Okumayi ogren");
+            break;
+            case 6:
+            System.out.println("Matematik ogren");
+            break;
+            case 7:
+            System.out.println("Okul nasil gidiyor");
+            break;
+            case 8:
+            System.out.println("Fizik ogren");
+            break;
+            default:
+                System.out.println("Cok yaslisin");
+        }
+    }
+}
